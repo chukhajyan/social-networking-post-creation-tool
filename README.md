@@ -1,7 +1,5 @@
 # Social Networking Post Creation Tool
 
-This project is a Social Networking Post Creation Tool.
-
 ## Getting Started
 
 To run the app locally, you can use the following commands:
