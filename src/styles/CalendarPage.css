@@ -1,0 +1,23 @@
+.calendar-section {
+    display: flex;
+    height: 100vh;
+}
+  
+.calendar-container {
+    flex: 2;
+    padding: 20px;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.details-container {
+    flex: 1;
+    padding: 20px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.scheduled-post {
+    margin-bottom: 10px;
+}
+  

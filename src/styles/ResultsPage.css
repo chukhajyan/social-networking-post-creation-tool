@@ -1,0 +1,165 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+  
+.results-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px;
+  width: 100%;
+}
+
+.result-option {
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.result-option img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  cursor: pointer;
+}
+
+.result-option p {
+  margin: 10px 0;
+}
+
+.result-option button {
+  padding: 10px;
+  cursor: pointer;
+  width: 300px;
+}
+  
+.modal.large {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.modal.large img {
+  width: 100%;
+  max-height: 70%;
+  object-fit: contain;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+}
+
+.modal.large img {
+  width: 420px;
+  object-fit: contain;
+}
+
+.modal .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px; 
+}
+
+@media (max-width: 768px) {
+  .results-page-container {
+    margin: 0 25px;
+  }
+
+  .results-container {
+    justify-content: center; 
+    text-align: center; 
+  }
+
+  .result-option {
+    width: 100%;
+  }
+
+  .modal.large img {
+    width: 280px;
+    object-fit: contain;
+  }
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.react-datepicker-popper {
+  z-index: 2;
+}
+
+.react-datepicker {
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.react-datepicker__header {
+  color: #fff;
+  border-bottom: none;
+}
+  
+.react-datepicker__current-month {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.react-datepicker__day-names {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day {
+  width: 2em;
+  line-height: 2em;
+  text-align: center;
+  border-radius: 50%;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__day--selected {
+  background-color: #333;
+  color: #fff;
+}
+
+
+.close-button {
+  background-color: #fff; 
+  color: #333;
+  border: 1px solid #333; 
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.close-button:hover {
+  background-color: #333; 
+  color: #fff;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+  margin: 15px 0;
+  position: relative;
+}
+
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+}
